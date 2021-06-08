@@ -1,9 +1,0 @@
-body{
-    background: burlywood;
-}
-
-@media screen and (min-width:800px) {
-    body{
-        background: chartreuse;
-    }
-}
