@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color:  hsl(210, 36%, 96%);
+  background-color:rgb(121, 121, 121);
   /* background-color:  blueviolet; */
   line-height: 1.5;
   font-size: 0.75rem;
@@ -51,7 +51,7 @@ nav{
 }
 
 .logo{
-  height: 40px;
+  height: 70px;
 }
 
 .links a{
@@ -63,6 +63,8 @@ nav{
   display: block;
   padding: 0.5rem 1rem;
   transition: all 0.3s linear;
+  text-decoration: none;
+  color: #fff;
 }
 
 
@@ -83,8 +85,9 @@ nav{
 } 
 
 .links a:hover{
-  background-color: bisque;
+  /* background-color: bisque; */
   padding-left: 1.5rem;
+  color: aqua;
 }
 
  .show-links {
@@ -93,7 +96,7 @@ nav{
 }
 
 nav{
-  /* background: cornflowerblue; */
+  background-color:rgb(121, 121, 121);
 }
 
 .nav-center{
@@ -107,10 +110,19 @@ nav{
 
 header img{
  
-    display: none;
+    display: block;
+    width: 100vw;
   }
+
 .centered{
-    display: none;
+    display: block;
+    color: #fff;
+    font-size: larger;
+    position:absolute;
+    top: 150px;
+    left: 100px;
+
+    /* background-color: rebeccapurple; */
   }
 
   .about img{
@@ -121,7 +133,8 @@ header img{
   }
 
   .container{
-      background-color: whitesmoke;
+      /* background-color: whitesmoke; */
+      background-color:rgb(121, 121, 121);
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -204,9 +217,9 @@ header img{
     .Contact-me{
       display: flex;
       flex-direction: row;
-      /* justify-content: space-between; */
+      justify-content: center;
       /* margin: 0 1.5rem; */
-      text-align: center;
+      padding-left: 10px;
     }
     .Contact-me li  {
       padding: 0 0.5rem;
@@ -228,12 +241,17 @@ header img{
       background: greenyellow;
     }
 
+    .card-body a{
+      text-decoration: none;
+      color: black;
+    }
+
   @media only screen and (min-width:800px){
   body{
     font-size: 1rem;
   }
   nav{
-    background-color:#fff;
+    background-color:rgb(121, 121, 121);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   }
   .nav-center{
@@ -273,7 +291,7 @@ header img{
   .social-icons a{
     margin: 0 0.5rem;
     transition: all 0.3s linear ;
-    color: turquoise;
+    color: #fff;
   }
   .social-icons a:hover{
     color: blue;
@@ -290,8 +308,10 @@ header img{
       left: 25%;
       /* right: 50%; */
       font-size: 2.5rem;
-      font-family: 'Pacifico', cursive;;
-      color: rgb(68, 67, 67);
+      /* font-family: 'Pacifico', cursive;; */
+      color: #fff;
+      /* background-color:rgb(121, 121, 121); */
+      font-weight: 700px;
       display: block;
     }
     .about img{
@@ -301,7 +321,8 @@ header img{
       /* background; */
     }
   .container{
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background-color:rgb(121, 121, 121);
     /* box-shadow: 2px 5px 2px 2px grey; */
     /* margin: ; */
     /* text-align: center; */
@@ -355,8 +376,9 @@ header img{
   .card:hover{
     /* font-weight: 800; */
     /* font-size: larger; */
-    border-style: inset;
-    width: 25rem;
+    /* border-style: inset; */
+    border: 1px solid black;
+    width: 21rem;
   }
   
   .list-of-projects{
@@ -390,7 +412,11 @@ header img{
   .social-icons a{
     margin: 0 0.5rem;
     transition: all 0.3s linear ;
-    color: turquoise;
+    color: #fff;
+  }
+  .card-body a{
+    text-decoration: none;
+    color: black;
   }
 
 }
